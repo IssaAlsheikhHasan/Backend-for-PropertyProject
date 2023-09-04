@@ -54,7 +54,7 @@ app.use((req, res, next) => {
 app.use('/property', propertyRoutes);
 app.use('/auth', authRoutes);
 app.use('/inbox', inboxRoutes);
-app.use('/profile', profileRoutes);
+//app.use('/profile', profileRoutes);
 
 app.use((error, req, res, next) => {
   console.log(error);
