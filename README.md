@@ -22,20 +22,20 @@ nodemon app
 ```
 
 ## Routes
-### Authantication route
+### Authantication Route
 Defined as /auth and containes:
 /signup {Post} | /login {Post} | /requestResetCode {Post} | /reset-password {Post}
 
-### Notification Inbox route
+### Notification Inbox Route
 Defined as /inbox and contains:
 /view {Get} | /approve-property/:propertyId {Post} | /deny-property/:propertyId {Post} | /accept-promotionToAdmin/:propertyId {Post} |
 /reject-promotionToAdmin/:propertyId {Post}
 
-### Property route 
+### Property Route 
 Defined as /property and contains:
 /all {Get} | /view/:propertyId {Get} | /new-property {Post} | /edit/:propertyId {Put} | /delete/:propertyId {Delete} |
 /myProperties {Get} | /:propertyId/add-comment {Post} | /:propertyId/comments {Get}
 
-### Profile route
+### Profile Route
 Defined as /profile and contains:
 /:userId {Get} | /request-promotionToAdmin {Post} 
