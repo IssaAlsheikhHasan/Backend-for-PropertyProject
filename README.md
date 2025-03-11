@@ -24,18 +24,18 @@ nodemon app
 ## Routes
 ### Authantication Route
 Defined as /auth and containes:
-/signup {Post} | /login {Post} | /requestResetCode {Post} | /reset-password {Post}
+/signup { Post } | /login { Post } | /requestResetCode { Post } | /reset-password { Post }
 
 ### Notification Inbox Route
 Defined as /inbox and contains:
-/view {Get} | /approve-property/:propertyId {Post} | /deny-property/:propertyId {Post} | /accept-promotionToAdmin/:propertyId {Post} |
-/reject-promotionToAdmin/:propertyId {Post}
+/view { Get } | /approve-property/:propertyId { Post } | /deny-property/:propertyId { Post } | /accept-promotionToAdmin/:propertyId { Post } |
+/reject-promotionToAdmin/:propertyId { Post }
 
 ### Property Route 
 Defined as /property and contains:
-/all {Get} | /view/:propertyId {Get} | /new-property {Post} | /edit/:propertyId {Put} | /delete/:propertyId {Delete} |
-/myProperties {Get} | /:propertyId/add-comment {Post} | /:propertyId/comments {Get}
+/all { Get } | /view/:propertyId { Get } | /new-property { Post } | /edit/:propertyId { Put } | /delete/:propertyId { Delete } |
+/myProperties { Get } | /:propertyId/add-comment { Post } | /:propertyId/comments { Get }
 
 ### Profile Route
 Defined as /profile and contains:
-/:userId {Get} | /request-promotionToAdmin {Post} 
+/:userId { Get } | /request-promotionToAdmin { Post } 
